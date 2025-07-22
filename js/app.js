@@ -23,3 +23,6 @@ var btnder = document.getElementById("btn-derecha");
 btnder.addEventListener("click", function() {
     container.scrollLeft += container.offsetWidth;
 })
+btnizq.addEventListener("click", function() {
+    container.scrollLeft -= container.offsetWidth;
+})
